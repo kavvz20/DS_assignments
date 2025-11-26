@@ -31,7 +31,7 @@ void deleteEnd(Node** head) {
 
 void printList(Node* head) {
     Node* temp = head;
-    cout << "Linked List: ";
+    cout << "Linked List ";
     while (temp != NULL) {
         cout << temp->data << " ";
         temp = temp->next;
